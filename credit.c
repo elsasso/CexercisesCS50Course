@@ -17,21 +17,21 @@ void cifras2(void)
     long i = 10;
     while (i < numtarj)
     {
-    int n = (numtarj /i % 10);
-    i = (i * 100);
-    int dig2 = n * 2;
-    int dig22 = dig2 % 10;
-    int dig222 = dig2 / 10;
-    suma1 = suma1 + dig22 + dig222;
+        int n = (numtarj / i % 10);
+        i = (i * 100);
+        int dig2 = n * 2;
+        int dig22 = dig2 % 10;
+        int dig222 = dig2 / 10;
+        suma1 = suma1 + dig22 + dig222;
 
     }
     int suma2 = 0;
     long t = 1;
     while (t < numtarj)
     {
-    int g = (numtarj /t % 10);
-    t = (t * 100);
-    suma2 = suma2 + g;
+        int g = (numtarj / t % 10);
+        t = (t * 100);
+        suma2 = suma2 + g;
 
 
     }
