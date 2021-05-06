@@ -45,18 +45,14 @@ int compute_score(string word)
     for (int i = 0, n = strlen(word); i < n; i++)
     {
         char letra = tolower(word[i]);
-        printf("%C", letra);
         for (int j = 0; j < ABCD[j]; j++)
         {
             if (letra == ABCD[j])
             {
-                printf("%i - %i\n", j, POINTS[j]);
                 suma = suma + POINTS[j];
             }
         }
 
     }
     return suma;
-
-
 }
