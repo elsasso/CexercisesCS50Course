@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: worst times on random and reversed files. Even if O is n^2 (selection sort has n^2 / 2 wich is the half of operations). Good times on sorted files
+
+sort2 uses: merge sort
+
+How do you know?: best random and reversed sort times, good times on sorted files too.
+
+sort3 uses: selection sort
+
+How do you know?: fair times on random and reversed files, better than bubble sort. Worst times on sorted files (worst omega values)
